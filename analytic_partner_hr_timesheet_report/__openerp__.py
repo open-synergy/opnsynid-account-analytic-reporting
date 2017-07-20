@@ -13,6 +13,6 @@
     "data": [
         "reports/hr_timesheet_report_views.xml"
     ],
-    "installable": True,
+    "installable": False,
     "license": "AGPL-3",
 }
