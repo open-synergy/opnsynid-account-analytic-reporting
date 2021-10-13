@@ -4,15 +4,13 @@
 {
     "name": "Partner information on Timesheet Analysis Report",
     "version": "8.0.1.0.0",
-    "author": "OpenSynergy Indonesia",
-    "website": "https://opensynergy-indonesia.com",
+    "author": "PT. Simetri Sinergi Indonesia, OpenSynergy Indonesia",
+    "website": "https://simetri-sinergi.id",
     "category": "Human Resources",
     "depends": [
         "analytic_partner_hr_timesheet",
     ],
-    "data": [
-        "reports/hr_timesheet_report_views.xml"
-    ],
+    "data": ["reports/hr_timesheet_report_views.xml"],
     "installable": True,
     "license": "AGPL-3",
 }
