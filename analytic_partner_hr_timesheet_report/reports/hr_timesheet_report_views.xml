@@ -1,15 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <openerp>
 <data>
 <record id="hr_timesheet_report_search" model="ir.ui.view">
     <field name="name">HR Timesheet Report Search</field>
     <field name="model">hr.timesheet.report</field>
-    <field name="inherit_id" ref="hr_timesheet.view_hr_timesheet_report_search"/>
+    <field name="inherit_id" ref="hr_timesheet.view_hr_timesheet_report_search" />
     <field name="arch" type="xml">
         <data>
             <xpath expr="//filter[@name='group_user_id']" position="before">
-                <filter name="grp_partner" string="Partner" context="{'group_by':'partner_id'}"/>
-                <filter name="grp_other_partner" string="Other Partner" context="{'group_by':'other_partner_id'}"/>
+                <filter
+                            name="grp_partner"
+                            string="Partner"
+                            context="{'group_by':'partner_id'}"
+                        />
+                <filter
+                            name="grp_other_partner"
+                            string="Other Partner"
+                            context="{'group_by':'other_partner_id'}"
+                        />
             </xpath>
         </data>
     </field>
